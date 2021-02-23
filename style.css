@@ -1,0 +1,301 @@
+body
+{
+    background:linear-gradient(to right,#90BBEF,#9996E7);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+.container
+{
+    display: flex;
+    height: 100vh;
+    width: 97vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form
+{
+  
+ width: 55%;
+ display: flex;
+}
+
+
+
+fieldset
+{
+   
+    margin: 0px;
+    width: 50%;
+    padding: 3em;
+    
+}
+
+.fieldset--left
+{
+    
+    background-color: #FFF;
+    border: 3px #FFF solid;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+.fieldset--right
+{
+
+    background-color:rgba(102, 0,214, 1);
+    border: 3px rgba(102, 0,214, 1) solid;
+    border-radius: 0px 10px 10px 0px; 
+    
+}
+
+.fieldset--right label
+{
+
+    font-size: 1em;    
+}
+
+input[type="radio"]
+{
+    background-color:transparent;
+    width: 17px;
+    margin-right: 8px;
+    padding: 0px;
+    margin-bottom: 3px;
+}
+
+
+select,input
+{
+	
+    width: 100%;
+    background-color:transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px  #eaeaea solid;   
+    font-size: 1em;
+    height: 51px ;
+    border-bottom: 2px  rgba(217,217 ,217, 0.7) solid;  
+    color:#FFF;
+   	
+}
+
+.fieldset--right select,.fieldset--right input
+{
+ 
+    border-bottom: 1px rgba(172, 172, 184, 0.9) solid; 
+    
+}
+.fieldset--right input::placeholder, .fieldset--right select, .fieldset--right label
+{
+ 
+    color: rgba(255, 255,255, 0.9);
+    
+}
+
+
+.fieldset--left input, .fieldset--left select
+{
+ 
+    color:#72716B;
+    
+}
+
+.fieldset--left input:focus
+{
+ 
+    color:#72716B
+    
+}
+
+
+
+select
+{
+    height: 55px;
+   
+}
+
+option
+{
+    color: black;
+}
+
+.input--min
+{
+    width: 46%;
+}
+
+.input--very_min
+{
+    width: 20%;
+    
+}
+
+.input--average
+{
+    width:60%; 
+}
+
+.select--min
+{
+    width: 37%;
+}
+
+
+div
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-bottom: 10px;  
+    align-items: center;
+}
+
+.div--left
+{
+    display: flex;
+    justify-content:left;
+    padding: 0px;
+    margin-bottom: 10px;  
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.8em;
+   
+}
+
+.div--min
+{
+    display: flex;
+    justify-content:left;
+    width: 70%;
+    padding: 0px; 
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: left;
+    margin-bottom: 2px;
+    word-spacing: 2px;
+    margin-left: 0px;
+    
+   
+}
+
+.div--self
+{
+    display: flex;
+    justify-content:left;
+    margin-left: 7%; 
+    color:inherit;
+    font-size: 0.8em;
+    
+  
+}
+
+.select--average
+{
+    width: 75%;
+   
+}
+
+
+a{
+
+    margin-left: 4px;
+    color:#FFF;
+    text-decoration: underline;
+
+}
+
+
+input[type="submit"]
+{
+    background-color:#FFFFFD;
+
+    margin-top: 40px;
+
+    width: 40%;
+
+    border-radius: 10em;
+
+    height: 43px;
+
+    font-weight: bold;
+
+    color: #010101;
+
+   
+}
+
+
+input[type="submit"]:active
+{
+    background-color:#007acc;
+    color:rgba(255,255,255,0.7);
+    outline: none; 
+
+   
+}
+
+input:focus ,select:focus 
+{
+
+    outline: none;
+    border-color: #007acc;  
+    font-weight: bold;
+}
+
+
+
+input[type="radio"] 
+ {
+    
+    
+    border-radius: 20px;
+    border:5px #eaeaea  solid;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 1px #eaeaea solid;
+   
+ }
+
+
+
+  input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid #4935d4;
+    box-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255);
+    
+}
+
+
+
+
+.label--blue
+{
+    color:#98A9F2;
+    font-size: 1.5em;
+}
+.label--white
+{
+    color:#FFF !important;
+    font-size: 1.5em!important;
+}
